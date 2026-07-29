@@ -1,0 +1,58 @@
+{
+  "name": "CombatSystem",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Events": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "SwordEvents": {
+          "$className": "Folder",
+          "$ignoreUnknownInstances": true,
+          "SwordStartup": {
+            "$className": "RemoteEvent"
+          }
+        },
+        "DashEvents": {
+          "$className": "Folder",
+          "$ignoreUnknownInstances": true,
+          "DashAnimate": {
+            "$className": "RemoteEvent"
+          }
+        }
+      },
+      "Swords": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      },
+      "CombatAnimations": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "KatanaAnims": {
+          "$className": "Folder",
+          "$ignoreUnknownInstances": true
+        }
+      },
+      "VFX": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService",
+      "$ignoreUnknownInstances": true
+    },
+    "ServerStorage": {
+      "$path": "src/ServerStorage",
+      "$ignoreUnknownInstances": true
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayerScripts",
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
+}
