@@ -325,7 +325,7 @@ const maxDashForce = Vector3.new(1e6, 0, 1e6)
 ## 📄 License
 ### Distributed under the MIT License. See LICENSE file for details.
 ## 📞 Contact
-- Author: Your: Ats_Profi_Prog
+- Author: Ats_Profi_Prog
 - Project Link: [GitHub Repository](https://github.com/Y90G7IYO0987/CombatSystem)
 ## 🙏 Acknowledgments
 - Roblox Studio for the platform
